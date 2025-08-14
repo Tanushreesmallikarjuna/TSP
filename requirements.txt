@@ -1,0 +1,7 @@
+streamlit
+ibm-watson
+transformers
+huggingface_hub
+sentence-transformers
+pymupdf
+faiss-cpu

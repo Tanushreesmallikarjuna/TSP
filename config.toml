@@ -1,0 +1,7 @@
+[theme]
+base = "light"                       # Can also use "dark"
+primaryColor = "#ffdd0051"              # Buttons, sliders
+backgroundColor = "#e1e5b1bb"           # Page background
+secondaryBackgroundColor = "#d368d73f"  # Sidebar, cards
+textColor = "#2b2b2bff"                 # Main text
+font = "serif"                   # Options: "sans serif", "serif", "monospace"
