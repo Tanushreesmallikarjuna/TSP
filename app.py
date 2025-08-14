@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 from transformers import pipeline
 import torch
 from transformers import pipeline
-
+st.set_page_config(page_title="Study mate", page_icon="📚")
 
 # --- Cache the QA Model ---
 @st.cache_resource
@@ -80,3 +80,4 @@ if st.button("🔎 Get Answer"):
                 st.info(f"Confidence Score: {result['score']:.3f}")
         else:
             st.error("❌ No relevant text found in the PDF.")
+
